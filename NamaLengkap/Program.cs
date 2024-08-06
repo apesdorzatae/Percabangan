@@ -23,10 +23,7 @@ namespace NamaLengkap
             {
                 Console.WriteLine("Nama Lengkap : Fahrezy Shiham Muttaki\nUmur : 16 Tahun\n Asal : Berau");
             }
-            /*else if (Console.ReadLine() == "Fahrezy" || Console.ReadLine() == "fahrezy" || Console.ReadLine() == "Rezy" || Console.ReadLine() == "rezy" || Console.ReadLine() == "Rezzy" || Console.ReadLine() == "rezzy" || Console.ReadLine() == "Rezzzy" || Console.ReadLine() == "rezzzy" || Console.ReadLine() == "Rezzzzy" || Console.ReadLine() == "rezzzzy")
-            {
-
-            }*/
+            
                     else
             {
                 Console.WriteLine("[GAGAL] Ini bukan Nama saya");
