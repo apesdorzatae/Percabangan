@@ -21,7 +21,7 @@ namespace Perbandingan
             }
             else if (angka1 < angka2)
             {
-                Console.WriteLine("Nilai angka kedua lebih besar dibandingkan angka kedua");
+                Console.WriteLine("Nilai angka kedua lebih besar dibandingkan angka pertama");
             }
             else;
 

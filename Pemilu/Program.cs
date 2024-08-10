@@ -12,7 +12,7 @@ namespace Pemilu
         {
             Console.WriteLine("===================================================================\nPENDAFTARAN PEMILU 2024\n===================================================================\n\n[Verifikasi]\nmasukkan umur anda terlebih dahulu");
             int umur = int.Parse(Console.ReadLine());
-            if (umur < 17)
+            if (umur < 17 && umur >= 1)
             {
                 Console.WriteLine("\nMaaf, anda belum cukup umur untuk mengikuti pemilu ini");
             }
