@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pemilu", "Pemilu\Pemilu.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RollerCoaster", "RollerCoaster\RollerCoaster.csproj", "{DA0A0A20-B15B-4FB2-AAA2-12AE4ABF6D0A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "If-Nested", "If-Nested\If-Nested.csproj", "{C6335EC9-F7BF-4259-AE25-4C80181C8FAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{DA0A0A20-B15B-4FB2-AAA2-12AE4ABF6D0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA0A0A20-B15B-4FB2-AAA2-12AE4ABF6D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA0A0A20-B15B-4FB2-AAA2-12AE4ABF6D0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6335EC9-F7BF-4259-AE25-4C80181C8FAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6335EC9-F7BF-4259-AE25-4C80181C8FAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6335EC9-F7BF-4259-AE25-4C80181C8FAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6335EC9-F7BF-4259-AE25-4C80181C8FAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
