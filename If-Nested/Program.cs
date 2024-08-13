@@ -4,7 +4,7 @@ using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//JANGAN LUPA MATIKAN SOAL SATU PER SATU SAAT MENCOBA SALAH SATU SYNTAX DENGAN DIUBAH JADI TEKS!!//
 namespace If_Nested
 {
     internal class Program
