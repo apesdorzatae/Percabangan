@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
@@ -10,7 +11,7 @@ namespace Switch_Case
     internal class Program
     {
         static void Main(string[] args)
-        {
+        { 
             //SOAL 1 : MEMILIH KARAKTER PEMAIN
             Console.WriteLine("Choose Your Character!\t[Warrior]\t/\t[Mage]\t\t/\t[Thief]");
             string character = Console.ReadLine().ToLower();
@@ -99,6 +100,89 @@ namespace Switch_Case
                 default:
                     Console.WriteLine("Invalid number! Please enter a number between 1 an break");
                     break;  
+            }
+
+            //CHALLENGE MR VANDI
+            /* 3 role: warrior, mage, thief
+             * 3 level: expert, medium, beginner
+             * kalu kamu beginner, pukulan pedangmu hanya 10%
+             * kalau medium  pukulan 50%
+             * kalau expert 80%
+             * setiap mage dan thief juga memiliki  increase yang sama
+             * oke oke
+             */ 
+            Console.WriteLine("Pick Your Character Role! [Warrior/Mage/Thief]");
+            string a = Console.ReadLine().ToLower();
+            switch (a) 
+            {
+                case "warrior":
+                    Console.WriteLine("You Choosed Warrior!");
+                    Console.WriteLine("Now Choose Your Level! [Beginner/Medium/Expert]");
+                    string q = Console.ReadLine().ToLower();
+                    if ( q == "beginner")
+                    {
+                        Console.WriteLine("[Beginner Level] You got 10% damage using melee weapon");
+                    }
+                    else if (q == "medium")
+                    {
+                        Console.WriteLine("[Medium Level] You got 50% damage using melee weapon");
+                    }
+                    else if (q == "expert")
+                    {
+                        Console.WriteLine("[Expert Level] You got 80% damage using melee weapon");
+                    }
+                    else
+                    {
+                        Console.WriteLine("*wrong input or spelling*\n[Program Finished..]");
+                    }
+                    break;
+
+                case "mage":
+                    Console.WriteLine("You Choosed Mage!");
+                    Console.WriteLine("Now Choose Your Level! [Beginner/Medium/Expert]");
+                    string w = Console.ReadLine().ToLower();
+                    if (w == "beginner")
+                    {
+                        Console.WriteLine("[Beginner Level] You got 10% damage using magic");
+                    }
+                    else if (w == "medium")
+                    {
+                        Console.WriteLine("[Medium Level] You got 50% damage using magic");
+                    }
+                    else if (w == "expert")
+                    {
+                        Console.WriteLine("[Expert Level] You got 80% damage using magic");
+                    }
+                    else
+                    {
+                        Console.WriteLine("*wrong input or spelling*\n[Program Finished..]");
+                    }
+                    break;
+
+                case "thief":
+                    Console.WriteLine("You Choosed Thief!");
+                    Console.WriteLine("Now Choose Your Level! [Beginner/Medium/Expert]");
+                    string e = Console.ReadLine().ToLower();
+                    if (e == "beginner")
+                    {
+                        Console.WriteLine("[Beginner Level] You got 10% damage using ranged attacks");
+                    }
+                    else if (e == "medium")
+                    {
+                        Console.WriteLine("[Medium Level] You got 50% damage using ranged attacks");
+                    }
+                    else if (e == "expert")
+                    {
+                        Console.WriteLine("[Expert Level] You got 80% damage using ranged attacks");
+                    }
+                    else
+                    {
+                        Console.WriteLine("*wrong input or spelling*\n[Program Finished..]");
+                    }
+                    break;
+                default:
+                    Console.WriteLine("Invalid Character Role\n[Program Finished..]");
+                    break;
             }
 
         }
